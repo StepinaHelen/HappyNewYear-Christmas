@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Webpack Starter Kit</title>
+
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="name-timer">
+    <h1>До Нового Года осталось:</h1>
+    <div id="timer"></div>
+</div>
+ 
+   
+    
+      <script type="javascript">
+        data(){
+            return {
+              music: require('@/assets/images/music.mp3')
+            }
+          },
+          methods: {
+            playMusic(){
+              const sound = new Audio(this.music)
+              sound.play()
+            }
+          }
+      </script>
+
+  <h2> Какие 30 дел, которые нужно успеть сделать до Нового года? </h2>
+  <div class="icon">
+  <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+  </div>
+      <ul class="siema menu">
+        
+        <!-- <div>Hi, I'm slide 1</div>
+        <div>Hi, I'm slide 2</div>
+        <div>Hi, I'm slide 3</div>
+        <div>Hi, I'm slide 4</div> -->
+      </ul>
+      <div class="buttons">
+<button class="prev">Предыдущий слайд</button>
+<button class="next">Следующий слайд</button>
+</div>
+
+<template>
+
+  <div class="modal">
+    <p>I'm a modal created from a DOM element/node.</p>
+    <button class="close" type="button" data-close-modal> Закрыть </button>
+  </div>
+</template>
+
+  
+<!-- autoplay -->
+
+  <div class="video">
+    <h3 class="music-title"> Немного новогодней музыки : </h3>
+  <audio height="50px" width="500px" class="my-video-content modal-area-content" autoplay
+    
+    src="https://ru-drivemusic.net/dl/U96HV5OOndnnyglkRXcuVQ/1581984519/download_music/novogodnie_pesni/abba-happy-new-year.mp3"
+    controls=""> Last Christmas</audio>
+    <audio height="50px" width="500px" class="my-video-content modal-area-content"
+      src="https://cdn.drivemusic.club/dl/online/cYOg88lW_8AsNY5mQgGYpA/1607686451/download_music/2019/03/shakin039-stevens-merry-christmas-everyone.mp3"
+      controls=""> Last Christmas</audio>
+    <audio height="50px" width="500px" class="my-video-content modal-area-content" 
+      src="https://cdn.drivemusic.club/dl/online/514ive6nEhlLzBsYbsC-Ig/1607685413/download_music/2014/01/dean-martin-let-it-snow-let-it-snow-let-it-snow.mp3"
+      controls=""> Last Christmas</audio>
+      <audio height="50px" width="500px" class="my-video-content modal-area-content" 
+        src="https://cdn.drivemusic.club/dl/online/vccPHRzwWsHFdqYciTvsvQ/1607684203/download_music/2012/12/alain-ducroix-feat.-regina-saraiva-last-christmas.mp3"
+        controls=""> Last Christmas</audio>
+
+        <audio height="50px" width="500px" class="my-video-content modal-area-content"
+          src="https://cdn.drivemusic.club/dl/online/ogxx7HUFup9WiEYdxeIHdA/1607685979/download_music/2013/12/midnight-red-merry-christmas-happy-holidays.mp3"
+          controls=""> Last Christmas</audio>
+      <audio height="50px" width="500px" class="my-video-content modal-area-content"
+        src="https://cdn.drivemusic.club/dl/online/esB2INBVWwuJ6JXkuwdo3w/1607686267/download_music/2011/10/justin-bieber-mistletoe.mp3"
+        controls=""> Last Christmas</audio>
+    <audio height="50px" width="500px" class="my-video-content modal-area-content" 
+            src="https://cdn.drivemusic.club/dl/online/iYdqzlW3VdlXYzonL0OJtA/1607684917/download_music/2019/09/lea-michele-its-the-most-wonderful-time-of-the-year.mp3"
+            controls=""> Last Christmas</audio>
+ <audio height="50px" width="500px" class="my-video-content modal-area-content"
+          src="https://cdn.drivemusic.club/dl/online/43xROtuxJECFWbdEmMAVKw/1607685465/download_music/2014/01/bobby-helms-jingle-bell-rock.mp3"
+            controls=""> Last Christmas</audio>
+
+ <audio height="50px" width="500px" class="my-video-content modal-area-content"
+              src="https://cdn.drivemusic.club/dl/online/DcDGf0RjlVvSz7hs6xry8A/1607685616/download_music/2020/10/enya-we-wish-you-a-merry-christmas.mp3"
+              controls=""> Last Christmas</audio>
+  <audio height="50px" width="500px" class="my-video-content modal-area-content"
+    src="https://cdn.drivemusic.club/dl/online/MxUx1iofBIh8DhYN4xJ0hA/1607685758/download_music/2014/01/andy-williams-winter-wonderland.mp3"
+    controls=""> Last Christmas</audio>
+    </div>
+</div>
+
+<script src="https://use.fontawesome.com/889d0138a5.js"></script>
+  </body>
+</html>
